@@ -1,12 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import Typing from 'react-typing-animation';
+import Resume from './pdfs/sara_peek_monteen_resume.pdf';
+import './stylesheet.css';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const main = (
+    <div className="text">
+        <div>
+            <img className="header-image" src="./profile.png" alt="icon"/>
+        <Typing speed={100}>
+            Sara Peek Monteen
+            <Typing.Delay ms={500} />
+            <br/>
+            <br/>
+            <a className="link-text" href=" https://www.linkedin.com/in/sarapeekmonteen-6a2692125/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <br/>
+            <br/>
+            <a className="link-text" href={Resume} target="_blank" rel="noopener noreferrer">Resume</a>
+        </Typing>
+        </div>
+    </div>
+);
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+
+ReactDOM.render(main, document.getElementById('root'));
