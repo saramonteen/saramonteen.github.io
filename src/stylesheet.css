@@ -1,0 +1,31 @@
+@import  url('https://fonts.googleapis.com/css?family=Overpass+Mono&display=swap');
+
+body {
+    height: 100%;
+    overflow: hidden;
+    background: linear-gradient(to right, #abc0ff, #abeaff);
+}
+
+.text {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: black;
+    font-family: 'Overpass Mono', monospace;
+    font-weight: normal;
+}
+
+.header-image {
+    height: 10%;
+    width: 10%;
+}
+
+.link-text {
+    text-decoration: none;
+    color: black;
+}
