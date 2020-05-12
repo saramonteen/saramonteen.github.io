@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Typing from 'react-typing-animation';
-import Resume from './pdfs/sara_peek_monteen_resume.pdf';
+import Resume from './pdfs/sara-peek-monteen-resume.pdf';
 import './stylesheet.css';
 
 const main = (
