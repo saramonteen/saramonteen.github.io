@@ -17,6 +17,9 @@ const main = (
             <br/>
             <br/>
             <a className="link-text" href={Resume} target="_blank" rel="noopener noreferrer">Resume</a>
+            <br/>
+            <br/>
+            <a className="link-text" href=" https://github.com/saramonteen" target="_blank" rel="noopener noreferrer">GitHub</a>
         </Typing>
         </div>
     </div>
