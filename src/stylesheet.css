@@ -1,6 +1,7 @@
 @import  url('https://fonts.googleapis.com/css?family=Overpass+Mono&display=swap');
 
 body {
+    margin: 0;
     height: 100%;
     overflow: hidden;
     background: linear-gradient(to right, #abc0ff, #abeaff);
@@ -28,4 +29,38 @@ body {
 .link-text {
     text-decoration: none;
     color: black;
+}
+
+.weather-header {
+    /* max-height: 50px; */
+    /* height: 100%; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    /* margin: .5%; */
+
+}.location{
+    font-family: 'Overpass Mono', monospace;
+    font-size: .9em;
+    font-weight: normal;
+
+    text-decoration: none;
+
+    margin: 4px;
+}.forecast{
+    font-family: 'Overpass Mono', monospace;
+    font-size: .9em;
+    font-weight: normal;
+
+    text-decoration: none;
+
+    margin: 4px;
+}
+
+.weather-header-image {
+    /* margin: 0; */
+    height: 2.7em;
+    width: 2.7em;
 }
