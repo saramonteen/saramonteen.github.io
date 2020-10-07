@@ -3,7 +3,9 @@ import './stylesheet.css';
 
 function Header(){
 
-    const [weather, setWeather] = useState([]);
+    const [, setWeather] = useState([]);
+
+    // const [weather, setWeather] = useState([]);
 
     var currentDate = new Date();
     var today = currentDate.toLocaleDateString('default', { weekday: 'long' }) + ", " + currentDate.toLocaleString('default', {month: 'long'}) + " " + currentDate.getDate() + ", " + currentDate.getFullYear();
