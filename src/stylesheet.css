@@ -32,14 +32,9 @@ body {
 }
 
 .weather-header {
-    /* max-height: 50px; */
-    /* height: 100%; */
-
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-
-    /* margin: .5%; */
 
 }.location{
     font-family: 'Overpass Mono', monospace;
@@ -50,6 +45,8 @@ body {
 
     margin: 4px;
 }.forecast{
+    max-height: 2.7em;
+
     font-family: 'Overpass Mono', monospace;
     font-size: .9em;
     font-weight: normal;
@@ -57,10 +54,22 @@ body {
     text-decoration: none;
 
     margin: 4px;
+
+
+    position: relative;
+    overflow: hidden;
+    /* Saving this here for when I want the data to scroll :p */
+    /* -webkit-animation: mymove 2s ease 0s; */
+    /* animation: mymove 20s infinite; */
 }
+/* @keyframes mymove {
+    from {top: 0px;}
+    to {top: -325px;}
+    } */
+/* @-webkit-keyframes mymove {    from {top: 0px;}
+to {top: -325px;}} */
 
 .weather-header-image {
-    /* margin: 0; */
     height: 2.7em;
     width: 2.7em;
 }
