@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import location from './locationIcon.png'
 import './stylesheet.css';
 
 function Header(){
@@ -20,7 +21,7 @@ function Header(){
     return (<>
         <div className='weather-header'>
             <div>
-                <img className="weather-header-image" src={require("./locationIcon.png")} alt="icon"/>
+                <img className="weather-header-image" src={location} alt="location icon"/>
             </div>
             <div className="location">
                 San Diego, CA
