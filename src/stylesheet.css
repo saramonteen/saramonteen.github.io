@@ -4,7 +4,21 @@ body {
     margin: 0;
     height: 100%;
     overflow: hidden;
-    background: linear-gradient(to right, #abc0ff, #abeaff);
+    background: linear-gradient(-45deg, #321a47, #743eac, #533ba3, #97bbe8, #b058c6);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .text {
